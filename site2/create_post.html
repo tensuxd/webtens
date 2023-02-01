@@ -1,0 +1,54 @@
+{{define "create_post"}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/post.css">
+    <link rel="shortcut icon" href="/img/dev.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="post">
+            <a class="container-title" href="home.html">dev.<span>dv</span></a>
+            <div class="icons">
+                <a href=""><img src="/img/GitHub.png" alt=""></a>
+                <a href=""><img src="/img/Twitter.png" alt=""></a>
+                <a href=""><img src="/img/Google.png" alt=""></a>
+                <a href=""><img src="/img/Social Icon.png" alt=""></a>
+            </div>
+            <form method="post">
+            <div class="inputs">
+                <div class="login-input">
+                    <p>Login</p>
+                    <input type="text" placeholder="title">
+                </div>
+                <div class="password-input">
+                    <p>Password</p>
+                    <textarea type="text" placeholder="Description..."></textarea>
+                </div>
+                <div class="home-register">
+                    <a href="home.html" class="home">
+                        <img src="/img/home.png" width="24px" height="24px" alt="">
+                        <p>Home</p>
+                    </a>
+                    <a href="" class="register">
+                        <img src="/img/register.png" width="24px" height="24px" alt="">
+                        <p>Create Post</p>
+                    </a>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+{{end}}
