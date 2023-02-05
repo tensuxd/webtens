@@ -1,4 +1,8 @@
-let a = 0
+
+
+//Замыкание
+
+/* let a = 0
 
 function count() {
     a++
@@ -25,4 +29,6 @@ d()
 b = 3
 console.log(b);
 d()
-d()
+d() */
+
+
