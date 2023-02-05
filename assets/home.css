@@ -164,7 +164,8 @@ span{
 .switch{
     display: inline-block;
     position: relative;
-    left: 20px;
+    left: 10px;
+    top: 900px;
     width: 60px;
     height: 25px;
 }
@@ -182,7 +183,7 @@ span{
     bottom: 0;
     right: 0;
     border-radius: 15px;
-    background-color: #ccc;
+    background-color: #777777;
     transition: 0.2s;
 }
 
