@@ -205,3 +205,4 @@ span{
 .switch-input:checked + .switch-slider::before{
     transform: translateX(25px);
 }
+
