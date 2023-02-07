@@ -1,3 +1,4 @@
+{{define "home"}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,17 +13,18 @@
     <title>dev.dv</title>
 </head>
 <body>
+    <script src="/new.js"></script>
     <div class="header">
         <a class="header-text" href="home.html">dev.<span>dv</span></a>
         <a href="create_post.html" class="create-button">Create post</a>
-        <img src="/img/bell-notification.png" class="notification" alt="notification">
-        <a href="login.html" class="login">Login <img src="/img/login.png" alt="login"></a>
+        <img src="/img/bell-notification.png" class="notification" alt="">
+        <a href="login.html" class="login">Login <img src="/img/login.png" alt=""></a>
         <input placeholder="Search..." class="search-head" type="text"><img class="search-icn" src="/img/search.png" alt=""></input>
     </div>
     <div id="main">
         <div class="menu">
             <a class="home" href="home.html">
-                <img src="/img/home.png" width="24px" height="24px" alt="home">
+                <img src="/img/home.png" width="24px" height="24px" >
                 <p>Home</p>
             </a>
             
@@ -64,3 +66,4 @@
     </div>
 </body>
 </html>
+{{end}}

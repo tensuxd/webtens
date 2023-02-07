@@ -32,3 +32,11 @@ d()
 d() */
 
 
+let result = 0
+
+while(true){
+    let name = prompt('Are u ready??')
+    if (name === '1'){
+        break;
+    }
+}
