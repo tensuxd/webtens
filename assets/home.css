@@ -6,6 +6,15 @@ body{
 span{
     color: #8886F2;
 }
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 50px;
+    height:94vh;
+    width: 100%;
+}
 /*Header*/
 .header{
     display: flex;
@@ -15,7 +24,7 @@ span{
     height: 50px;
     left: 0px;
     top: 0px;
-    background: rgb(189, 188, 188);
+    background: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 /*Dev.dv*/
@@ -25,9 +34,9 @@ span{
     align-items: center;
     position: absolute;
     font-size: 24px;
-    width: 130px;
+    width: 230px;
     height: 40px;
-    left: 440px;
+    left: 840px;
     top: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     color: rgb(255, 255, 255);
@@ -39,7 +48,7 @@ span{
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1420px;
+    left: 420px;
     top: 15px;    
 }
 .notification:hover{
@@ -56,7 +65,7 @@ span{
     position: absolute;
     width: 100px;
     height: 30px;
-    left: 1270px;
+    left: 250px;
     top: 9px;
     transition: all 200ms ease 0ms;
 }
@@ -73,7 +82,7 @@ span{
     position: absolute;
     width: 300px;
     height: 30px;
-    left: 760px;
+    left: 1250px;
     top: 10px;
     background: #c3c3c3;
     border: none;
@@ -83,7 +92,7 @@ span{
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1030px;
+    left: 1515px;
     top: 13px;
 }
 .search-icn:hover{
@@ -107,61 +116,17 @@ span{
     top: 13px;
 }
 
-/*Left menu block*/
-
-.menu{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 200px;
-    height: 600px;
-    left: 400px;
-    top: 65px;
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.menu p {
-    padding-left: 10px;
-}
-/*Left menu icons*/
-
-.home,.posts,.guides,.friends,.messages,.sponsors{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 5px;
-    color: #000000;
-    transition: all 200ms ease 0ms;
-}
-.home p:hover,.posts p:hover,.guides p:hover,.friends p:hover,.messages p:hover,.sponsors p:hover{
-    text-decoration: underline;
-    text-shadow:0px 0px 10px rgb(0, 0, 0) ;
-    transition: all 200ms ease 0ms;
-}
 
 /*Main block*/
 .container{
+    margin: 15px;
     position: absolute;
-    width: 600px;
-    height: 850px;
-    left: 610px;
-    top: 65px;
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 92vh;
+    width: 1500px;
+    background-color: white;
 }
 
-/*New posts block*/
-.new-posts{
-    position: absolute;
-    width: 200px;
-    height: 600px;
-    left: 1220px;
-    top: 65px;
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-/*switch button*/
+/*switch button
 .switch{
     display: inline-block;
     position: relative;
@@ -183,7 +148,7 @@ span{
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #777777;
     transition: 0.2s;
 }
 
@@ -191,11 +156,11 @@ span{
     content: "";
     position: absolute;
     cursor: pointer;
-    left: 5px;
+    left: 4px;
     bottom: 5px;
     height: 10px;
-    width: 20px;
-    background-color: rgb(170, 169, 169);
+    width: 25px;
+    background-color: white;
     transition: 0.2s;
 }
 .switch-input:checked + .switch-slider{
@@ -203,6 +168,7 @@ span{
 }
 
 .switch-input:checked + .switch-slider::before{
-    transform: translateX(30px);
+    transform: translateX(25px);
 }
+*/
 
