@@ -14,9 +14,8 @@ span{
     position: absolute;
     width: 100%;
     height: 50px;
-    left: 0px;
     top: 0px;
-    background: white;
+    background: rgb(189, 188, 188);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -28,7 +27,7 @@ span{
     font-size: 24px;
     width: 130px;
     height: 40px;
-    left: 100px;
+    left: 90px;
     top: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     color: white;
@@ -60,7 +59,7 @@ span{
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 15px;
     height: 33px;
 }
 .ex-ico{
@@ -80,17 +79,16 @@ span{
 }
 /*Main post*/
 .d-post{
-    margin-bottom: 10px;
     width: 1000px;
     height: 550px;
-    padding: 10px;
     background: #D9D9D9;
     border: none;
 }
 .description-post{
-    margin: 15px;
+    width: 1000px;
+    height: 30px;
+    background: #D9D9D9;
     border: none;
-    background: #d9d9d9;
 }
 .description-post:focus-visible{
     border: nm;

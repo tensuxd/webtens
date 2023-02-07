@@ -15,7 +15,7 @@ span{
     height: 50px;
     left: 0px;
     top: 0px;
-    background: white;
+    background: rgb(189, 188, 188);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 /*Dev.dv*/
@@ -166,9 +166,9 @@ span{
     display: inline-block;
     position: relative;
     left: 10px;
-    top: 900px;
+    bottom: 5px;
     width: 60px;
-    height: 25px;
+    height: 20px;
 }
 .switch-input{
     height: 0;
@@ -183,7 +183,7 @@ span{
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #777777;
+    background-color: #ffffff;
     transition: 0.2s;
 }
 
@@ -191,11 +191,11 @@ span{
     content: "";
     position: absolute;
     cursor: pointer;
-    left: 4px;
-    bottom: 4px;
-    height: 17px;
-    width: 27px;
-    background-color: white;
+    left: 5px;
+    bottom: 5px;
+    height: 10px;
+    width: 20px;
+    background-color: rgb(170, 169, 169);
     transition: 0.2s;
 }
 .switch-input:checked + .switch-slider{
@@ -203,6 +203,6 @@ span{
 }
 
 .switch-input:checked + .switch-slider::before{
-    transform: translateX(25px);
+    transform: translateX(30px);
 }
 
