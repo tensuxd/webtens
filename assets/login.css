@@ -12,7 +12,7 @@ span{
     height: 50px;
     left: 0px;
     top: 0px;
-    background: rgb(255, 255, 255);
+    background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 .container{
@@ -35,14 +35,14 @@ span{
     top: 250px;
     background: #1A1A1A;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .login{
-    display: flex;
-    justify-content: center;
     width: 500px;
     height: 650px;
     background: #FFFFFF;
+    border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -55,7 +55,7 @@ span{
 }
 .inputs{
     width: 200px;
-    background-color: #ffffff;
+    background-color: #8886F2;
 }
 
 .login-input{
@@ -85,6 +85,7 @@ span{
     height: 0px;
     width: 300px;
     border-width: 1px;
+    border-radius: 5px;
 }
 
 .home-register{
@@ -98,6 +99,7 @@ span{
     left: 720px;
     top: 750px;
     background: #dadada;
+    border-radius: 10px;
 }
 .home{
     display:flex;
@@ -123,22 +125,4 @@ span{
 }
 .register p {
     padding-left: 10px;
-}
-
-.login-button{
-    position: absolute;
-    top: 650px;
-    border: none;
-    padding: 15px 50px;
-    font-size: 24px;
-    background-color:#dadada;
-    transition: all 200ms ;
-}
-.login-button:hover{
-    cursor: pointer;
-    background-color: #8886F2;
-    box-shadow: 0px 0px 20px #8886F2;
-}
-.login-button:active{
-    background-color: #59589c;
 }

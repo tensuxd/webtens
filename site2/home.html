@@ -1,4 +1,4 @@
-{{define "home"}}
+<!-- {{define "home"}} -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,30 +10,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <title>dev.news</title>
+    <title>dev.dv</title>
 </head>
 <body>
     <script src="/new.js"></script>
     <div class="header">
-        <a class="header-text" href="home.html">dev.<span>news</span></a>
-        <img src="/img/bell-notification.png" class="notification" alt="">
-        <a href="login.html" class="login">Login <img src="/img/login.png" alt=""></a>
+        <a class="header-text" href="home.html">dev.<span>dv</span></a>
+
+        <!-- СКОРО -->
+        <!-- <a href="create_post.html" class="create-button">Create post</a> -->
+        <!-- <img src="/img/bell-notification.png" class="notification" alt=""> -->
+        <!-- <a href="login.html" class="login">Login <img src="/img/login.png" alt=""></a> -->
+
         <input placeholder="Search..." class="search-head" type="text"><img class="search-icn" src="/img/search.png" alt=""></input>
     </div>
-    <div class="under-head">
-        <a href="create_post.html" class="create-button">Create post</a>
-        <a href="" class="home-button"></a>
-        <a href="" class="last-button"></a>
-    </div>
-    <div id="main">
-        <div class="main">
-            <div class="container"></div>
-        </div>
-       <!-- <label class="switch">
-            <input type="checkbox" class="switch-input"/>
-            <span class="switch-slider"></span>
-        </label> -->
+    <div class="main-block">
+            <div class="menu">
+                <a class="home" href="home.html">
+                    <img src="/img/home.png" width="24px" height="24px" >
+                    <p>Home</p>
+                </a>
+    
+                <a class="posts" href="">
+                    <img src="/img/posts.png" alt=""> 
+                    <p>Posts</p>
+                </a>
+    
+                <a href="" class="guides">
+                    <img src="/img/Guides.png" alt=""> 
+                    <p>Guides</p>
+                </a>
+                    
+                <!-- СКОРО -->
+              <!--   <a href="" class="friends">
+                    <img src="/img/friends.png" alt="">
+                    <p>Friends</p>
+                </a> -->
+    
+                <!-- СКОРО -->
+               <!--  <a href="" class="messages">
+                    <img src="/img/messages.png" alt="">
+                    <p>Messages</p>
+                </a> -->
+    
+                <a href="" class="sponsors">
+                    <img src="/img/sponsors.png" alt="">
+                    <p>Sponsors</p>
+                </a>
+            </div>
+    
+            <div class="main">
+                <div class="container"></div>
+            </div>
+           <!--  <label class="switch">
+                <input type="checkbox" class="switch-input"/>
+                <span class="switch-slider"></span>
+            </label> -->
     </div>
 </body>
 </html>
-{{end}}
+<!-- {{end}} -->

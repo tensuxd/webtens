@@ -3,18 +3,47 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1464ab0-8053-4bfc-877c-7b34cbd28045" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
+    <list default="true" id="d1464ab0-8053-4bfc-877c-7b34cbd28045" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/rust-a65a2e8241518b79/output-bin-rust" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rust-a65a2e8241518b79/output-bin-rust" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rust.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rust.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rust.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rust.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/.fingerprint/rust-a65a2e8241518b79/output-bin-rust" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/.fingerprint/rust-a65a2e8241518b79/output-bin-rust" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/deps/rust.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/deps/rust.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/deps/rust.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/deps/rust.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/rust.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/rust.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/release/rust.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/release/rust.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -30,20 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/webtens/rust",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.disableDetachedFileInspectionC:/Users/User/Desktop/webtens/rust/app/app.rs": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Run rust" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package rust --bin rust" />
@@ -84,11 +118,28 @@
       <workItem from="1676140360932" duration="735000" />
       <workItem from="1676182872261" duration="4472000" />
       <workItem from="1676194541598" duration="5707000" />
-      <workItem from="1676225839331" duration="970000" />
+      <workItem from="1676225839331" duration="3271000" />
+      <workItem from="1676311573144" duration="6600000" />
+      <workItem from="1676366668642" duration="804000" />
+      <workItem from="1676367491333" duration="457000" />
+      <workItem from="1676368014148" duration="141000" />
+      <workItem from="1676368260157" duration="835000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1676226841237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676226841237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
